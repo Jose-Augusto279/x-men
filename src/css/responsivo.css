@@ -1,0 +1,38 @@
+@media (max-width: 1120px){ /* Quando a media chegar numa largura máxima de 1120px, as regras a seguir serão aplicadas. */
+    .cabecalho .logo {
+        max-width: 190px;
+    }
+
+    .selecao-de-personagens {
+        flex-direction: column-reverse; /* Reverte a ordem dos elementos na coluna. */
+        max-width: 430px;
+        margin: 0 auto; /* O margin 0 auto é uma estratégia para centralizar o conteúdo, pois a margem 0 seria em cima e embaixo e o espaço na direita e na esquerda a gente aplica o auto, que será distribuído simetricamente pelos lados, centralizando o conteúdo. */
+    }
+
+    .selecao-de-personagens .personagens {
+        margin-top: 37px;
+    }
+
+    .selecao-de-personagens .personagens .titulo {
+        font-size: 15px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens {
+        gap: 9px;
+    }
+    
+    .selecao-de-personagens .personagem img {
+        width: 80px;
+    }
+
+    .personagem-caracteristica .personagem-grande {
+        width: 350px;
+        height: 350px;
+    }
+
+    .caracteristicas-personagem .descricao-personagem {
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
